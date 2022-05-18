@@ -1,0 +1,82 @@
+ul, ol, li {list-style-type: none;}
+a {color: #333; text-decoration: none;}
+
+.wrap {position: relative;}
+.list {position: absolute; height: 50px; margin-bottom: 50px; margin-top: 20px; margin-left: 50px;}
+.list li {display: inline-block; padding: 0 20px; letter-spacing:2px; font-weight: bold;}
+.listbox {margin: 0 auto; text-align: left;}
+
+.home {position: relative;}
+.home-anim {position: absolute; margin-left: 55%; margin-top: 10%;
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.subtext {text-align: center; color: rgb(43, 213, 255); letter-spacing:2px; font-weight: bold;}
+.title2 {text-align: center;}
+.skill {text-align: center;}
+
+.gradeImg {text-align: center;}
+.noteImg {text-align: center;}
+
+@font-face {
+    font-family: "semi";
+    src: url("fonts/Poppins-SemiBold.ttf");
+}
+
+.portfolio-text {color: rgb(43, 213, 255); letter-spacing:2px; font-weight: bold; margin-left: 5%;}
+.works-text {letter-spacing:0px; font-family: "semi"; margin-left: 5%;}
+
+
+.work1 {float:left; position: relative; margin-top: 100px; margin-left: 200px;}
+.work1-a {position: absolute; opacity: 1;}
+.work1:hover .work1-a{opacity: 0;}
+
+.work2 {float:right; position: relative; margin-top: 80px; margin-right: 150px;}
+.work2-a {position: absolute; opacity: 1}
+.work2:hover .work2-a{opacity: 0;}
+
+.work3-a {float:left; margin-left: 200px;}
+.work4-a {float:right; margin-right: 150px;}
+
+.friends {text-align: center;}
+.thanks {font-family: 'Noto Sans KR', sans-serif; text-align: center; font-weight: bold; font-size: 48px;}
+.footer {text-align: center;}
